@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+
+    .card-header p {
+        margin: 0 0 1rem;
+    }
+
+    .card-header h2 {
+        margin: .25rem 0 auto;
+        cursor: pointer;
+    }
+
+    .card-content {
+        //margin: 0.5rem 1rem 1rem;
+    }
+}
